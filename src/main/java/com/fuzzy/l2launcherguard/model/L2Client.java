@@ -25,7 +25,11 @@ public class L2Client {
         return 1;
     }
 
+    public long getPid() {
+        return pid;
+    }
 
-
-
+    public Process getProcess() {
+        return process;
+    }
 }
